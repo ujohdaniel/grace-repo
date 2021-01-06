@@ -1,0 +1,86 @@
+/* unversal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*end of unversal */
+
+/* nav */
+nav{
+    /* background: black; */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white
+ }
+ nav ul li{
+     list-style: none;
+     display: inline-block;
+ }
+ 
+ nav ul li a{
+     text-decoration: none;
+     color:  blue;
+     text-transform: uppercase;
+     margin: 40px;
+     font-size: 1.1rem;
+     transition: color .2s linear;
+ }
+ nav ul li a:hover{
+     color: rgb(147, 187, 247);
+ }
+ nav ul li .nav-item{
+     margin-left: 52px;
+ }
+ nav ul li a img{
+     height: 60px;
+     display: inline-block;
+     margin-right: 50px;
+ }
+ /* end of nav */
+
+ /* footer */
+
+footer{
+    width: 100%;
+    /* height: 200px; */
+    background: rgb(0, 0, 0);
+    padding: 2rem;
+    text-align: center;
+}
+footer .slim-underline{
+    width: 50px;
+    height: 2px;
+    background: white;
+    margin: auto;
+}
+footer .underline{
+    width: 50px;
+    height: 2px;
+    background: white;
+    margin: 10px auto;
+}
+footer .contain {
+    display: flex;
+    flex-direction: column;
+    margin: auto 15rem;
+    margin-top: 2rem;
+}
+footer .contain img{
+    display: inline-block;
+    width: 15rem;
+    height: 2rem;  
+    margin-left: 9.3rem;
+}  
+footer p{
+   margin: 10px;
+   color: white
+}
+/* end of footer */
